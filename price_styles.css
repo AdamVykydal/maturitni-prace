@@ -1,0 +1,42 @@
+.pricing {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.pricing-table th, .pricing-table td {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+}
+
+.pricing-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.pricing-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pricing-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.pricing-table td {
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

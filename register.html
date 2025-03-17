@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoškola adam</title>
+    <link rel="icon" type="image/x-icon" href="/img/image.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login_styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <a href="index.html">
+          <img src="img/image.svg" alt="logo">
+          </a>    
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </label>
+        <ul class="menu">
+          <li><a href="price_list.html">Ceník</a></li>
+          <li><a href="cars.html">Auta</a></li>
+          <li><a href="test.php">Zkušební test</a></li>
+          <li><a href="test_questions.html">Dopravní značky</a></li>
+          <li><a href="login.html"><img src="img/user.png" alt="user"></a></li>
+        </ul>
+    </nav>
+
+    <div class="form-container">
+        <h1>Registrace</h1>
+        <form action="register_process.php" method="POST">
+            <table>
+                <tr>
+                    <td><label for="username">Jméno:</label></td>
+                    <td><input type="text" id="username" name="username" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Heslo:</label></td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Registrovat</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <p>Máte již účet? <a href="login.html">Přihlaste se</a>.</p>
+    </div>
+
+    <footer class="footer">
+        <p>Adam Vykydal, 2024</p>
+    </footer>
+</body>
+</html>
